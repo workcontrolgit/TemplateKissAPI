@@ -1,0 +1,35 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Kiss.Application</Name>
+    <Description>This layer contains all application logic. It is dependent on the domain layer, but has no dependencies on any other layer or project. This layer defines interfaces that are implemented by outside layers. For example, if the application need to access a notification service, a new interface would be added to application and an implementation would be created within infrastructure.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Kiss.Application</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Kiss.Application.csproj" File="Kiss.Application.csproj" ReplaceParameters="true">
+      <Folder Name="Constants" TargetFolderName="Constants">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ConfigurationConstants.cs">ConfigurationConstants.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Interfaces" TargetFolderName="Interfaces">
+        <ProjectItem ReplaceParameters="true" TargetFileName="IGenericRepository.cs">IGenericRepository.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="IMockRepository.cs">IMockRepository.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="IPersonRepository.cs">IPersonRepository.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="IProductRepository.cs">IProductRepository.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="IUnitOfWork.cs">IUnitOfWork.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Parameters" TargetFolderName="Parameters">
+        <ProjectItem ReplaceParameters="true" TargetFileName="GetAllProductsParameter.cs">GetAllProductsParameter.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="RequestParameter.cs">RequestParameter.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

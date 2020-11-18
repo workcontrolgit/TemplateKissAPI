@@ -1,0 +1,25 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Kiss.Core</Name>
+    <Description>This will contain all entities, enums, exceptions, interfaces, types and logic specific to the domain layer.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Kiss.Core</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Kiss.Core.csproj" File="Kiss.Core.csproj" ReplaceParameters="true">
+      <Folder Name="Entities" TargetFolderName="Entities">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Person.cs">Person.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Product.cs">Product.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.35" />
+    <PackageReference Include="GenFu" Version="1.6.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.6" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.6" />
+    <PackageReference Include="SqlKata" Version="2.2.0" />
+    <PackageReference Include="SqlKata.Execution" Version="2.2.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\$ext_projectname$.Application\$ext_projectname$.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Mock\" />
+  </ItemGroup>
+
+</Project>

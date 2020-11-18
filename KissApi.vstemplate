@@ -1,0 +1,64 @@
+﻿
+  <VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+
+  <TemplateData>
+
+    <Name>Kiss WebAPI Project Template</Name>
+
+    <Description>A project template for building ASP.NET WebAPI with Core layer, Application layer, Infrastructure layer and WebAPI layer</Description>
+
+    <ProjectType>CSharp</ProjectType>
+
+    <ProjectSubType>
+
+    </ProjectSubType>
+
+    <SortOrder>1000</SortOrder>
+
+    <CreateNewFolder>true</CreateNewFolder>
+
+    <DefaultName>KissWebApi</DefaultName>
+
+    <ProvideDefaultName>true</ProvideDefaultName>
+
+    <LocationField>Enabled</LocationField>
+
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+
+    <Icon>__TemplateIcon.ico</Icon>
+
+  </TemplateData>
+
+  <TemplateContent>
+
+    <ProjectCollection>
+
+      <ProjectTemplateLink ProjectName="$projectname$.Application" CopyParameters="true">
+
+        Kiss.Application\MyTemplate.vstemplate
+
+      </ProjectTemplateLink>
+
+      <ProjectTemplateLink ProjectName="$projectname$.Core" CopyParameters="true">
+
+        Kiss.Core\MyTemplate.vstemplate
+
+      </ProjectTemplateLink>
+
+      <ProjectTemplateLink ProjectName="$projectname$.Infrastructure" CopyParameters="true">
+
+        Kiss.Infrastructure\MyTemplate.vstemplate
+
+      </ProjectTemplateLink>
+
+      <ProjectTemplateLink ProjectName="$projectname$.WebApi" CopyParameters="true">
+
+        Kiss.WebApi\MyTemplate.vstemplate
+
+      </ProjectTemplateLink>
+
+    </ProjectCollection>
+
+  </TemplateContent>
+
+</VSTemplate>
