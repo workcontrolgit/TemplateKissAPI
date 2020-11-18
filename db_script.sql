@@ -1,7 +1,7 @@
 -- 1.Create database SalesDB
-CREATE DATABASE SalesDB
+CREATE DATABASE KissApiDB
 GO
-USE SalesDB
+USE KissApiDB
 GO
 -- 2. Create table Products 
 CREATE TABLE [dbo].[Products](
