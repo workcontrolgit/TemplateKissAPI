@@ -5,7 +5,7 @@ using $ext_projectname$.Core.Entities;
 using System;
 using System.Threading.Tasks;
 
-namespace Kiss.Api.Controllers
+namespace $ext_projectname$.Api.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]

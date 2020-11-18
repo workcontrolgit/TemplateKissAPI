@@ -2,7 +2,7 @@
 using $ext_projectname$.Application.Interfaces;
 using System.Threading.Tasks;
 
-namespace Kiss.Api.Controllers
+namespace $ext_projectname$.Api.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]
