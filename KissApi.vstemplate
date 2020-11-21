@@ -17,7 +17,7 @@
 
     <CreateNewFolder>true</CreateNewFolder>
 
-    <DefaultName>KissWebApi</DefaultName>
+    <DefaultName>MyWebApi</DefaultName>
 
     <ProvideDefaultName>true</ProvideDefaultName>
 
