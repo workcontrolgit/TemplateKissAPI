@@ -1,6 +1,6 @@
-# DevKit WebAPI - Rapid Prototype
+# DevKit WebAPI - Rapid REST API Prototype
 
-This project is based on Clean Architechture, Repository and Unit of Work patterns.  The source code is organized in four projects 
+This project is based on Clean Architecture, Repository and Unit of Work patterns.  The geneare source code is organized in four projects 
 
 1. Core
 2. Application
@@ -17,7 +17,7 @@ The tech stack includes the following
 
 Instructions to run the project
 1.  Clone the repo
-2.  Open the SalesApi.sln with Visual Studio 2019
-3.  Create database and table using the db_script.sql (find in the solution root foler)
+2.  Open the KissApi.sln with Visual Studio 2019
+3.  Create database and table using the db_script.sql (find in the solution root folder)
 4.  Run the solution
 

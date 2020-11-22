@@ -3,7 +3,7 @@
 
   <TemplateData>
 
-    <Name>Kiss WebAPI Project Template</Name>
+    <Name>KissApi Template (ASP.NET Core, Dapper/SQLKata)</Name>
 
     <Description>A project template for building ASP.NET WebAPI with Core layer, Application layer, Infrastructure layer and WebAPI layer</Description>
 
@@ -31,7 +31,10 @@
 
   <TemplateContent>
 
+    <ProjectItem ReplaceParameters="true">README.md</ProjectItem>
+    <ProjectItem ReplaceParameters="true">db_script.sql</ProjectItem>
     <ProjectCollection>
+
 
       <ProjectTemplateLink ProjectName="$projectname$.Application" CopyParameters="true">
 
