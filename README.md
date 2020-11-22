@@ -15,9 +15,9 @@ The tech stack includes the following
 4. Swagger for WebAPI documentation and testing
 6. GenFu for mock data and rapid webapi prototype
 
-Instructions to run the project
-1.  Clone the repo
-2.  Open the KissApi.sln with Visual Studio 2019
-3.  Create database and table using the db_script.sql (find in the solution root folder)
-4.  Run the solution
+Instructions to use the template
+1. Download and install the template
+2. Create new project using the template
+3. Create database and table using the db_script.sql (find in the solution root folder)
+4. Run the solution
 
