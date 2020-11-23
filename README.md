@@ -21,4 +21,4 @@ This project is based on Clean Architecture, Repository and Unit of Work pattern
 3. Create database and table using the db_script.sql (find in the solution root folder)
 4. Run the solution
 
-For instructions to dowload and use the template from Visual Studio marketplace, visit Medium blog https://fuji-nguyen.medium.com/rapid-prototype-asp-net-708df7a59a3?sk=6965ff020c90a8fa40b67254998aaf83
+For instructions to download and use the template from Visual Studio marketplace, visit Medium blog https://fuji-nguyen.medium.com/rapid-prototype-asp-net-708df7a59a3?sk=6965ff020c90a8fa40b67254998aaf83
