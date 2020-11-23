@@ -1,4 +1,4 @@
-# DevKit WebAPI - Rapid REST API Prototype
+# Rapid Asp.Net Core REST API Prototype
 
 This project is based on Clean Architecture, Repository and Unit of Work patterns.  The geneare source code is organized in four projects 
 
