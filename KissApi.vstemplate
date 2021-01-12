@@ -42,9 +42,9 @@
 
       </ProjectTemplateLink>
 
-      <ProjectTemplateLink ProjectName="$projectname$.Core" CopyParameters="true">
+      <ProjectTemplateLink ProjectName="$projectname$.Domain" CopyParameters="true">
 
-        Kiss.Core\MyTemplate.vstemplate
+        Kiss.Domain\MyTemplate.vstemplate
 
       </ProjectTemplateLink>
 
