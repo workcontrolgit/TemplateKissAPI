@@ -5,7 +5,7 @@
 
     <Name>KissApi Template (ASP.NET Core, Dapper/SQLKata)</Name>
 
-    <Description>A project template for building ASP.NET WebAPI with Core layer, Application layer, Infrastructure layer and WebAPI layer</Description>
+    <Description>A project template for building ASP.NET WebAPI with Core layer, Application layer, Persistence layer and WebAPI layer</Description>
 
     <ProjectType>CSharp</ProjectType>
 
@@ -35,30 +35,25 @@
     <ProjectItem ReplaceParameters="true">db_script.sql</ProjectItem>
     <ProjectCollection>
 
+      <SolutionFolder Name="Core">
+        <ProjectTemplateLink ProjectName="$projectname$.Application" CopyParameters="true">
+          Kiss.Application\MyTemplate.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$projectname$.Domain" CopyParameters="true">
+          Kiss.Domain\MyTemplate.vstemplate
+        </ProjectTemplateLink>
+      </SolutionFolder>
+      <SolutionFolder Name="Infrastructure">
+        <ProjectTemplateLink ProjectName="$projectname$.Persistence" CopyParameters="true">
+          Kiss.Persistence\MyTemplate.vstemplate
+        </ProjectTemplateLink>
+      </SolutionFolder>
 
-      <ProjectTemplateLink ProjectName="$projectname$.Application" CopyParameters="true">
-
-        Kiss.Application\MyTemplate.vstemplate
-
-      </ProjectTemplateLink>
-
-      <ProjectTemplateLink ProjectName="$projectname$.Domain" CopyParameters="true">
-
-        Kiss.Domain\MyTemplate.vstemplate
-
-      </ProjectTemplateLink>
-
-      <ProjectTemplateLink ProjectName="$projectname$.Infrastructure" CopyParameters="true">
-
-        Kiss.Infrastructure\MyTemplate.vstemplate
-
-      </ProjectTemplateLink>
-
-      <ProjectTemplateLink ProjectName="$projectname$.WebApi" CopyParameters="true">
-
-        Kiss.WebApi\MyTemplate.vstemplate
-
-      </ProjectTemplateLink>
+      <SolutionFolder Name="Presentation">
+        <ProjectTemplateLink ProjectName="$projectname$.WebApi" CopyParameters="true">
+          Kiss.WebApi\MyTemplate.vstemplate
+        </ProjectTemplateLink>
+      </SolutionFolder>
 
     </ProjectCollection>
 

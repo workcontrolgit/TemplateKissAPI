@@ -2,7 +2,7 @@
 using $ext_projectname$.Application.Interfaces;
 using System.Threading.Tasks;
 
-namespace $ext_projectname$.Api.Controllers
+namespace $safeprojectname$.Api.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]

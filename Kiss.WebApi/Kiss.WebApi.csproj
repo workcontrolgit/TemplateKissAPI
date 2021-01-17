@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\$ext_projectname$.Infrastructure\$ext_projectname$.Infrastructure.csproj" />
+    <ProjectReference Include="..\$ext_projectname$.Persistence\$ext_projectname$.Persistence.csproj" />
   </ItemGroup>
 
 

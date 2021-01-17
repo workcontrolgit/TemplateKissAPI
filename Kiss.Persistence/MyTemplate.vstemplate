@@ -1,13 +1,13 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>Kiss.Infrastructure</Name>
+    <Name>Kiss.Persistence</Name>
     <Description>This layer contains classes for accessing external resources such as file systems, web services, smtp, and so on. These classes should be based on interfaces defined within the application layer.</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>Kiss.Infrastructure</DefaultName>
+    <DefaultName>Kiss.Persistence</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
@@ -15,7 +15,7 @@
     <Icon>__TemplateIcon.ico</Icon>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="Kiss.Infrastructure.csproj" File="Kiss.Infrastructure.csproj" ReplaceParameters="true">
+    <Project TargetFileName="Kiss.Persistence.csproj" File="Kiss.Persistence.csproj" ReplaceParameters="true">
       <Folder Name="Mock" TargetFolderName="Mock" />
       <Folder Name="Repository" TargetFolderName="Repository">
         <ProjectItem ReplaceParameters="true" TargetFileName="MockRepository.cs">MockRepository.cs</ProjectItem>

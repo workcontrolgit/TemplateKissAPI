@@ -12,7 +12,7 @@ namespace $safeprojectname$
 {
     public static class ServiceRegistration
     {
-        public static void AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
+        public static void AddPersistence(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddTransient<IProductRepository, ProductRepository>();
             services.AddTransient<IPersonRepository, PersonRepository>();

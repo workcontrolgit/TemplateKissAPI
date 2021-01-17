@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 using $ext_projectname$.Application.Interfaces;
-using $ext_projectname$.Core.Entities;
+using $ext_projectname$.Domain.Entities;
 using SqlKata.Execution;
 using System;
 using System.Collections.Generic;
