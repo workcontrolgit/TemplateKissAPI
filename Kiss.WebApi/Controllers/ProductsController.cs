@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using $ext_projectname$.Application.Interfaces;
 using $ext_projectname$.Application.Parameters;
-using $ext_projectname$.Core.Entities;
+using $ext_projectname$.Domain.Entities;
 using System;
 using System.Threading.Tasks;
 
-namespace $ext_projectname$.Api.Controllers
+namespace $safeprojectname$.Api.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]

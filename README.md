@@ -4,7 +4,7 @@ This project is based on Clean Architecture, Repository and Unit of Work pattern
 
 1. Core
 2. Application
-3. Infrastructure
+3. Persistence
 4. WebApi
 
 ## The tech stack includes the following

@@ -4,7 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using $ext_projectname$.Infrastructure;
+using $ext_projectname$.Persistence;
 using System;
 using System.IO;
 using System.Reflection;
@@ -23,7 +23,7 @@ namespace $safeprojectname$
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddInfrastructure(Configuration);
+            services.AddPersistence(Configuration);
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

@@ -1,4 +1,4 @@
-﻿using $ext_projectname$.Core.Entities;
+﻿using $ext_projectname$.Domain.Entities;
 
 namespace $safeprojectname$.Interfaces
 {

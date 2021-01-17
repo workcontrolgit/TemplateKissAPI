@@ -19,8 +19,4 @@
     <ProjectReference Include="..\$ext_projectname$.Application\$ext_projectname$.Application.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Mock\" />
-  </ItemGroup>
-
 </Project>

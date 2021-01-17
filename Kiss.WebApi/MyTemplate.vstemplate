@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
     <Name>Kiss.WebApi</Name>
-    <Description>This layer depends on both the Application and Infrastructure layers, however, the dependency on Infrastructure is only to support dependency injection. Therefore only Startup.cs should reference Infrastructure.</Description>
+    <Description>This layer depends on both the Application and Persistence layers, however, the dependency on Persistence is only to support dependency injection. Therefore only Startup.cs should reference Persistence.</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>

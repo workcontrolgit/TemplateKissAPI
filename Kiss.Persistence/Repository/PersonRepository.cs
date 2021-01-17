@@ -1,5 +1,5 @@
 ﻿using $ext_projectname$.Application.Interfaces;
-using $ext_projectname$.Core.Entities;
+using $ext_projectname$.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
